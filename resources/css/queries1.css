@@ -1,0 +1,52 @@
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+        width:100%;
+        padding: 0 2%;
+    }    
+    .row{
+        padding: 0 2%;
+    }
+    }
+@media only screen and (max-width:1023px){
+
+.plan-box{
+    background-color: #fff;
+    border-radius:5px;
+    width: 100%;
+    margin-left:5%;
+    -webkit-box-shadow: 0,2px,3px,#fff;
+    box-shadow: 0,2px,3px,#fff;
+}
+    h1,h2,h3{
+        font-size: 100%;
+    }
+}
+@media only screen and (max-width:767px){
+    
+    .plan-box{
+        width: 100%;
+        height: 80%;
+    }
+    .plan-box:last-child{
+        height: 80%;
+    }
+    .main-nav{
+        display: none;
+    }
+    .section-plans:last-child{
+        height: 80%;
+    }
+    .col{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:480px){
+    
+.col{
+        width: 100% ;
+    }
+.logo-black{
+        height: 5%;
+    }
+
+}

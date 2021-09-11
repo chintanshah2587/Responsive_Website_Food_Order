@@ -1,0 +1,75 @@
+/* big tablet to 1200px row is 1140 in style.css*/
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+        width:100%;
+        padding: 0 2%;
+    }    
+    .row{
+        padding: 0 2%;
+    }
+    }
+
+/* big ipad 768-1023*/
+@media only screen and (max-width:1023px){
+    body{
+        font-size: 18px;
+    }
+    section{
+        padding: 60px 0;
+    }
+    .long-copy{
+        width:80%;
+        margin-left: 10%;
+    }
+    .steps-box{
+        margin-top: 10px;
+    }
+    .steps-box:last-child{
+        margin-top: 10px;
+    }
+
+    .works-step{
+        margin-bottom: 40px;
+    }
+    .works-step:last-of-type{
+        margin-bottom: 80px;
+    }
+    .app-screen{
+        width: 50%;
+    }
+    .icon-small{
+        width: 10px;
+        margin-right: 10px;
+        margin-top: 0.5px;
+    }
+    .city-features{
+        font-size: 90%;
+        
+    }
+    .section-cities div{
+        font-size: 90%;
+    }
+    .plan-box{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .plan-price{
+        font-size: 250%;
+    }
+    .contact-form{
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width:767px){
+    .col{
+        width: 100%;
+        
+    }
+   
+    .main-nav{
+        display: none;
+    }
+    
+}
